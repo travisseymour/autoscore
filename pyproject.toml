@@ -16,7 +16,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "AutoScore"
-version = "2025.1.29.2"
+version = "2025.1.29.3"
 description = "AutoScore: a tool I use when grading essays or short-answer papers to keep track of the scores."
 authors = [{ name = "Travis L. Seymour, PhD", email = "nogard@ucsc.edu" }]
 license = { file = "LICENSE" }

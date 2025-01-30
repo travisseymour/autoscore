@@ -92,8 +92,8 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 uv tool install git+https://github.com/travisseymour/autoscore.git
 ```
 
-AutoScore
-## Run EPICcoder
+
+## Run AutoScore
 
 Start AutoScore by opening your operating system's terminal application and type this command:
 
