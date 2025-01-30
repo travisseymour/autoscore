@@ -3,9 +3,9 @@ from typing import Optional
 from PySide6.QtWidgets import QMainWindow
 from PySide6.QtCore import Qt, QSettings
 
+from autoscore.mainui import Ui_MainWindowAutoScore
 from autoscore.safemath import safe_eval_math
 from autoscore.version import get_version
-from mainui import Ui_MainWindowAutoScore
 from loguru import logger as log
 from pathlib import Path
 import re
