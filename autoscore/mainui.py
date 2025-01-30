@@ -20,7 +20,7 @@ from PySide6.QtWidgets import (QAbstractItemView, QApplication, QCheckBox, QGrid
     QMainWindow, QPushButton, QSizePolicy, QSpacerItem,
     QSpinBox, QStatusBar, QVBoxLayout, QWidget)
 
-from filelistwidget import FileListWidget
+from autoscore.filelistwidget import FileListWidget
 
 class Ui_MainWindowAutoScore(object):
     def setupUi(self, MainWindowAutoScore):
