@@ -45,3 +45,5 @@ if __name__ == "__main__":
     print(safe_eval_math("-4 / 2"))  # -2.0
     print(safe_eval_math("3.5 + 2.5"))  # 6.0
     print(safe_eval_math("(100+75+75+75)/4"))  # 6.0
+    print('---')
+    print(safe_eval_math("(100+0+100+100)/4 - 5"))  # 6.0

@@ -26,7 +26,7 @@ class MainWin(QMainWindow):
         self.data = []
 
         # Precompile regex patterns
-        self.score_regex = re.compile(r"\[([\d\.\-\+\*\/\(\)]+)\]", re.IGNORECASE)
+        self.score_regex = re.compile(r"\[([\d\.\-\+\*\/\(\)\s]+)\]", re.IGNORECASE)
         self.addition_regex = re.compile(r"{([-+]*[\d\.]+)\|([^|}]+)}", re.IGNORECASE)
         self.addition_ranged_regex = re.compile(r"{([-+]*[\d\.]+)\|([\w ]+)\|([\d\.]+)\|([\d\.]+)}", re.IGNORECASE)
 
